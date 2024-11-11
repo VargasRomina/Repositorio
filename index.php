@@ -1,5 +1,4 @@
 <?php
-// Incluir archivo de conexión a la base de datos
 include 'conexion.php';
 
 $error = '';
