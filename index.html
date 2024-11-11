@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BIENVENIDO A NUESTRO SISTEMA DE GESTION DE VACACIONES..</h2>
+        
+        <!-- Formulario para ingresar nombre y DNI -->
+        <form action="login.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre">
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required placeholder="Ingrese su DNI">
+
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+
+        <!-- Enlace para registrarse si no tiene cuenta -->
+        <p>¿No tienes cuenta? <a href="registro.php">Regístrate aquí</a></p>
+    </div>
+</body>
+</html>
